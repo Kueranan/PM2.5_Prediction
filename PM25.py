@@ -94,7 +94,7 @@ if __name__ == '__main__':
     main()
 
 
-st.header("A brief history of PM2.5 ")
+st.header("General information about PM2.5  ")
 st.subheader('')
  
 
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     main()
 
 
-st.header("A Process Flow Diagram")
+st.header("Working process")
 image_index = Image.open('De.jpg')
 st.image(image_index, caption='A Flow dirgram process')
 
