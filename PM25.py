@@ -76,7 +76,7 @@ if __name__ == "__main__":
 df_1 = pd.read_csv('data_2024.csv')
 
 def main():
-    st.header('Select the date you want to know the trend of Pm2.5 dust.')
+    st.header('Select the date you want to know the trend of PM2.5 dust.')
 
     # Convert the 'Date' column to datetime
     #df_1['date'] = pd.to_datetime(df_1['date'])
