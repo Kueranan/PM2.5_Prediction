@@ -36,7 +36,7 @@ def main():
     st.header("Prediction PM2.5 in year 2024")
     
     # Load your data from data.csv
-    data = pd.read_csv("data_2024.csv")
+    data = pd.read_csv("data_2024_new.csv")
     
     st.write("### Select Columns to Plot")
     selected_columns = st.multiselect("Select columns to plot", data.columns)
