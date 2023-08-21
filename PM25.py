@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 # Sample DataFrame
 
-df_1 = pd.read_csv('date_range_2024_new.csv')
+df_1 = pd.read_csv('date_2024_new.csv')
 
 def main():
     st.header('Select the date you want to know the trend of PM2.5 dust.')
